@@ -2,8 +2,7 @@
 //  main.m
 //  PowerController
 //
-//  Created by Chirag Gupta on 7/23/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by tekstop on 7/23/12.
 //
 
 #import <Cocoa/Cocoa.h>

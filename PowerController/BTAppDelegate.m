@@ -58,14 +58,14 @@ bool connectionButtonState;
         // Connect to your device with 9600 baud
         if([arduino connect:myDevice withBaud:B115200]) 
         {
-            sender.title = [NSString stringWithString:@"Connected"];
+            sender.title = @"Connected";
             connectionButtonState = true;
         }
     } 
     else
     {
         [arduino disconnect];
-        sender.title = [NSString stringWithString:@"Connect"];
+        sender.title = @"Connect";
         connectionButtonState = false;
     }
 }

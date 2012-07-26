@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PowerController' target in the 'PowerController' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

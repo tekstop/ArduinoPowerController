@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249396D015BE1B2D00F1F786 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249396CF15BE1B2D00F1F786 /* Cocoa.framework */; };
+		249396DA15BE1B2D00F1F786 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249396D815BE1B2D00F1F786 /* InfoPlist.strings */; };
+		249396DC15BE1B2D00F1F786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249396DB15BE1B2D00F1F786 /* main.m */; };
+		249396E015BE1B2D00F1F786 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 249396DE15BE1B2D00F1F786 /* Credits.rtf */; };
+		249396E315BE1B2D00F1F786 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249396E215BE1B2D00F1F786 /* BTAppDelegate.m */; };
+		249396E615BE1B2E00F1F786 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249396E415BE1B2E00F1F786 /* MainMenu.xib */; };
+		249396F115BE210400F1F786 /* Matatino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249396F015BE210400F1F786 /* Matatino.framework */; };
+		249396F315BE217D00F1F786 /* Matatino.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 249396F015BE210400F1F786 /* Matatino.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		249396F215BE216200F1F786 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				249396F315BE217D00F1F786 /* Matatino.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		249396CB15BE1B2D00F1F786 /* PowerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249396CF15BE1B2D00F1F786 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		249396D215BE1B2D00F1F786 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		249396D315BE1B2D00F1F786 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		249396D415BE1B2D00F1F786 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		249396D715BE1B2D00F1F786 /* PowerController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerController-Info.plist"; sourceTree = "<group>"; };
+		249396D915BE1B2D00F1F786 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		249396DB15BE1B2D00F1F786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		249396DD15BE1B2D00F1F786 /* PowerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerController-Prefix.pch"; sourceTree = "<group>"; };
+		249396DF15BE1B2D00F1F786 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		249396E115BE1B2D00F1F786 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		249396E215BE1B2D00F1F786 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		249396E515BE1B2E00F1F786 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		249396F015BE210400F1F786 /* Matatino.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Matatino.framework; path = Frameworks/Matatino.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249396C815BE1B2D00F1F786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249396D015BE1B2D00F1F786 /* Cocoa.framework in Frameworks */,
+				249396F115BE210400F1F786 /* Matatino.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249396C015BE1B2D00F1F786 = {
+			isa = PBXGroup;
+			children = (
+				249396D515BE1B2D00F1F786 /* PowerController */,
+				249396CE15BE1B2D00F1F786 /* Frameworks */,
+				249396CC15BE1B2D00F1F786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		249396CC15BE1B2D00F1F786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249396CB15BE1B2D00F1F786 /* PowerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249396CE15BE1B2D00F1F786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249396F015BE210400F1F786 /* Matatino.framework */,
+				249396CF15BE1B2D00F1F786 /* Cocoa.framework */,
+				249396D115BE1B2D00F1F786 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249396D115BE1B2D00F1F786 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249396D215BE1B2D00F1F786 /* AppKit.framework */,
+				249396D315BE1B2D00F1F786 /* CoreData.framework */,
+				249396D415BE1B2D00F1F786 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		249396D515BE1B2D00F1F786 /* PowerController */ = {
+			isa = PBXGroup;
+			children = (
+				249396E115BE1B2D00F1F786 /* BTAppDelegate.h */,
+				249396E215BE1B2D00F1F786 /* BTAppDelegate.m */,
+				249396E415BE1B2E00F1F786 /* MainMenu.xib */,
+				249396D615BE1B2D00F1F786 /* Supporting Files */,
+			);
+			path = PowerController;
+			sourceTree = "<group>";
+		};
+		249396D615BE1B2D00F1F786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				249396D715BE1B2D00F1F786 /* PowerController-Info.plist */,
+				249396D815BE1B2D00F1F786 /* InfoPlist.strings */,
+				249396DB15BE1B2D00F1F786 /* main.m */,
+				249396DD15BE1B2D00F1F786 /* PowerController-Prefix.pch */,
+				249396DE15BE1B2D00F1F786 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249396CA15BE1B2D00F1F786 /* PowerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249396E915BE1B2E00F1F786 /* Build configuration list for PBXNativeTarget "PowerController" */;
+			buildPhases = (
+				249396C715BE1B2D00F1F786 /* Sources */,
+				249396C815BE1B2D00F1F786 /* Frameworks */,
+				249396C915BE1B2D00F1F786 /* Resources */,
+				249396F215BE216200F1F786 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerController;
+			productName = PowerController;
+			productReference = 249396CB15BE1B2D00F1F786 /* PowerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		249396C215BE1B2D00F1F786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 249396C515BE1B2D00F1F786 /* Build configuration list for PBXProject "PowerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 249396C015BE1B2D00F1F786;
+			productRefGroup = 249396CC15BE1B2D00F1F786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249396CA15BE1B2D00F1F786 /* PowerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249396C915BE1B2D00F1F786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249396DA15BE1B2D00F1F786 /* InfoPlist.strings in Resources */,
+				249396E015BE1B2D00F1F786 /* Credits.rtf in Resources */,
+				249396E615BE1B2E00F1F786 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249396C715BE1B2D00F1F786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249396DC15BE1B2D00F1F786 /* main.m in Sources */,
+				249396E315BE1B2D00F1F786 /* BTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		249396D815BE1B2D00F1F786 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249396D915BE1B2D00F1F786 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		249396DE15BE1B2D00F1F786 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249396DF15BE1B2D00F1F786 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		249396E415BE1B2E00F1F786 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249396E515BE1B2E00F1F786 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249396E715BE1B2E00F1F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		249396E815BE1B2E00F1F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		249396EA15BE1B2E00F1F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerController/PowerController-Prefix.pch";
+				INFOPLIST_FILE = "PowerController/PowerController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/Matatino.framework\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		249396EB15BE1B2E00F1F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerController/PowerController-Prefix.pch";
+				INFOPLIST_FILE = "PowerController/PowerController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/Matatino.framework\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249396C515BE1B2D00F1F786 /* Build configuration list for PBXProject "PowerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249396E715BE1B2E00F1F786 /* Debug */,
+				249396E815BE1B2E00F1F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249396E915BE1B2E00F1F786 /* Build configuration list for PBXNativeTarget "PowerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249396EA15BE1B2E00F1F786 /* Debug */,
+				249396EB15BE1B2E00F1F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 249396C215BE1B2D00F1F786 /* Project object */;
+}

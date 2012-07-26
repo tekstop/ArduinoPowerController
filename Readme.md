@@ -12,3 +12,5 @@ Framework. This connection is made wireless using BlueSirf  Bluetooth module (SP
 are then translated to trigger a relay to power a device.
 
 * The sample PDE (arduino sketch is also provided).
+
+* For more details, check the blog at: tekstop.wordpress.com
